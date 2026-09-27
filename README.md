@@ -1,10 +1,10 @@
 # Exploración Computacional de la Regresión Logística
 
 ## Objetivo
-Este proyecto implementa y evalúa computacionalmente un modelo de regresión logística desde cero, estudiando propiedades como la superficie de la función de riesgo empírico, el comportamiento frente a datos separables y no separables, la recuperación de parámetros poblacionales, y la estabilidad numérica de la verosimilitud. Todo se ha implementado de forma modular sin usar `scikit-learn`.
+Este proyecto implementa y evalúa computacionalmente un modelo de regresión logística desde cero, estudiando propiedades como la superficie de la función de riesgo empírico, el comportamiento frente a datos separables y no separables, la recuperación de parámetros poblacionales y la estabilidad numérica de la verosimilitud. Todo se ha implementado de forma modular sin usar `scikit-learn` con el fin de ver qué hace `scikit-learn` realmente, ya que en teoría `scikit-learn` tiene todo esto ya implementado.
 
 ## Integrantes
-- [Tu Nombre / Tu Grupo]
+- Andrea Medina y Tatiana Casallas
 
 ## Estructura del repositorio
 - `src/`: Contiene los módulos Python con la lógica base.
@@ -21,8 +21,9 @@ pip install -r requirements.txt
 ```
 
 ## Ejecución
-Para reproducir el trabajo:
-1. Navega a la raíz del proyecto.
-2. Inicia Jupyter Notebook o JupyterLab (o usa Google Colab).
-3. Abre el archivo `notebooks/experimentos.ipynb`.
-4. Selecciona "Restart & Run All" en el kernel para ejecutar todos los experimentos desde cero y generar las gráficas en la carpeta `resultados/`.
+Para reproducir el trabajo (asumiendo ya tenga python instalado y jupyter y git dentro de Visual Studio Code):
+1. Abre la carpeta raíz del proyecto en Visual Studio Code.
+2. Abre el archivo notebooks/experimentos.ipynb.
+3. Asegúrate de seleccionar el entorno de Python correcto (kernel) en la esquina superior derecha.
+4. Haz clic en "Run All" (o "Restart & Run All") para ejecutar todos los experimentos desde cero.
+Las gráficas se generarán y guardarán físicamente de forma automática en la carpeta resultados/.
