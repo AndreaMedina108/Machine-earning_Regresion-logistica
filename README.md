@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Ejecución
 Para reproducir el trabajo (asumiendo ya tenga python instalado y jupyter y git dentro de Visual Studio Code):
 1. Abre la carpeta raíz del proyecto en Visual Studio Code.
-2. Abre el archivo notebooks/experimentos.ipynb.
+2. Abre el archivo `notebooks/experimentos.ipynb`.
 3. Asegúrate de seleccionar el entorno de Python correcto (kernel) en la esquina superior derecha.
 4. Haz clic en "Run All" (o "Restart & Run All") para ejecutar todos los experimentos desde cero.
 Las gráficas se generarán y guardarán físicamente de forma automática en la carpeta resultados/.
